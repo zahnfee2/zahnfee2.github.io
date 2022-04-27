@@ -15,9 +15,9 @@
 <body>
 
 <!-- #### Navigartions Bar #### -->
-<nav class="navbar navbar-expand-lg navbar-light bg-light text-black">
+<nav class="navbar navbar-expand-lg navbar-light bg-dark text-white">
     <div class="container-fluid">
-        <a class="navbar-brand " href="#">Home</a>
+        <a class="navbar-brand text-white" href="#">Home</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -25,13 +25,15 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                    <a class="nav-link active " aria-current="page" href="Curriculum_vitae.html">Lebenslauf</a>
+                    <a class="nav-link active  text-white" aria-current="page" href="Curriculum_vitae.html">Lebenslauf</a>
                 </li>
             </ul>
         </div>
     </div>
 </nav>
-<div class="bg-dark text-light">
+
+<!-- Text -->
+<div class="bg-light text-black">
     <div class="container py-4 text-center col-6">
         <h1 class="display-3">Wer bin ich?</h1>
         <p>
@@ -39,11 +41,32 @@
             der Uni bin, findest du mich oft beim Sport oder in den Bergen.
         </p>
     </div>
+</div>
 
-    <div class="container py-5 text-center">
-        <img src="./images/marvin.jpg" alt="bild_marvin" style="max-width: 30%">
+<!-- Infos -->
+<div class="container row bg-white">
+
+    <!-- Picture -->
+    <div class="col-6">
+        <div class="py-5">
+            <img src="./images/marvin.jpg" alt="bild_marvin" style="max-width: 100%">
+        </div>
     </div>
 
+    <!-- Information -->
+    <div class="col-6 py-5">
+        <ul>
+            <li>Marvin P.</li>
+            <li>marvinpieper@protonmail.com</li>
+            <li>27 Jahre</li>
+        </ul>
+    </div>
+
+</div>
+
+
+<!-- Buttons -->
+<div class="container bg-light">
     <div class="container text-center py-5">
         <form  class="py-2" action="Curriculum_vitae.html">
             <button type="submit" class="btn btn-secondary">Lebenslauf</button>
@@ -51,8 +74,14 @@
         <form  class="py-2" action="https://github.com/zahnfee2">
             <button type="submit" class="btn btn-secondary">GitHub</button>
         </form>
+        <form  class="py-2" action="">
+            <button type="submit" class="btn btn-secondary">GitHub</button>
+        </form>
     </div>
 </div>
+
+
+
 
 
 
