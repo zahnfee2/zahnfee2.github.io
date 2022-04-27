@@ -24,15 +24,47 @@
     </div>
 </nav>
 
-<div class="list-group container py-5 col-7">
-    <button type="button" class="list-group-item list-group-item-action active">
-        Lebenslauf:
-    </button>
-    <button type="button" class="list-group-item list-group-item-action">2017 erweiterter Realschulabschluss (Abitur) </button>
-    <button type="button" class="list-group-item list-group-item-action">2017-2019 medizinisches Informationsmanagement (Bachelor)</button>
-    <button type="button" class="list-group-item list-group-item-action">2019-jetzt angewandte Informatik (Bachelor)</button>
-</div>
 
+<div class="accordion container" id="accordionExample">
+    <div class="accordion-item">
+        <h2 class="accordion-header" id="headingOne">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                2016 - 2017 ## erweiterter Realschulabschluss (Abitur)
+            </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+                Ich habe mein Abitur an der an der Alice-Salomon-Schule absolviert. Hier habe ich die Berufsoberschule besucht und erfolgreich abgeschlossen.
+            </div>
+        </div>
+    </div>
+    <div class="accordion-item">
+        <h2 class="accordion-header" id="headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                2017 - 2019 ## medizinisches Informationsmanagement (Bachelor)
+            </button>
+        </h2>
+        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+                An der Hochschule Hannover (Fakultät 3) habe ich 4 Semester medizinisches Informationsmanagement studiert.
+                Das Studium habe ich jedoch abgebrochen, da ich den Studiengang zu 'angewandte Informatik' gewechselt habe.
+            </div>
+        </div>
+    </div>
+    <div class="accordion-item">
+        <h2 class="accordion-header" id="headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                2019 - 2022 ## angewandte Informatik (Bachelor)
+            </button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+                Zur Zeit studiere ich angewandte Informatik an der Hochschule Hannover (Fakultät 4) im 6. Semester.
+                Durch Corona hat mein Studienvortschritt leider etwas gelitten.
+            </div>
+        </div>
+    </div>
+</div>
 
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
